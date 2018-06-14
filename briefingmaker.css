@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+/* Briefing Maker - Desenvolvido por Francisco Matelli Matulovic */
+/* Quarta-feira 20/ago/2008 */
+/* O código está comentado só para os curiosos entenderem, mas nao tem nada de avançado aqui nao */
+/* Acho que vou descolar uma graninha extra esse mes */
+* {
+	/* resetador, idéia da visie.com.br */
+	padding:0;
+	margin:0;
+	list-style: none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+P {
+	padding:5px 0 5px 0;
+}
+#container {
+	width:100%;
+}
+#header {
+	position:relative;
+	padding:5px;
+	height:70px;
+	background:url(briefingmaker_fundo.png) no-repeat #6E6FB6;;
+	border-bottom:solid;
+	border-bottom-color:#383972;
+	border-bottom-width:2px;
+}
+h1.briefing {
+	font-size:38px;
+	color:#E2E2F1;
+}
+h1.maker {
+	/* EFEITO SIMULADO DE SUPERSCRIPT */
+	color:#383972;
+	font-size:18px;
+	vertical-align:top;
+}
+h2.slogam {
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	font-size:20px;
+	color:#fff;
+	float:right;
+}
+/**/
+h4 {
+	padding:8px;
+}
+#content {
+	padding:5px;
+}
+#content form {
+	margin:auto;
+	padding:8px;
+	background:#E5E5E5;	
+	width:98%;
+	border:solid #383972 2px;
+}
+#sites tr.linhaPagina {
+	width:100%;
+}
+#sites tr.linhaPagina:hover {
+	background-color:#FFD7D7;
+}
